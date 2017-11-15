@@ -9,4 +9,5 @@ function deepestChild(){
 }
 function increaseRankBy(n){
   var rankedList = document.querySelector('.ranked-list');
+  console.log(rankedList.children);
 }
