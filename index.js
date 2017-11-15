@@ -11,9 +11,7 @@ function increaseRankBy(n){
   var rankedList = document.querySelector('.ranked-list');
   for (var child in rankedList.children) {
     if (object.hasOwnProperty(child)) {
-      
+      child.innerHTML = parseInt(child.innerHTML) + n;
     }
   }
 }
-
-
