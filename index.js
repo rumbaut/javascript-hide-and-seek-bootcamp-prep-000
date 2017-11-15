@@ -9,7 +9,11 @@ function deepestChild(){
 }
 function increaseRankBy(n){
   var rankedList = document.querySelector('.ranked-list');
-  console.log(rankedList.children);
+  for (var child in rankedList.children) {
+    if (object.hasOwnProperty(child)) {
+      
+    }
+  }
 }
 
-increaseRankBy(5);
+
