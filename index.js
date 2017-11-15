@@ -11,3 +11,5 @@ function increaseRankBy(n){
   var rankedList = document.querySelector('.ranked-list');
   console.log(rankedList.children);
 }
+
+increaseRankBy(5);
