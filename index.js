@@ -9,6 +9,8 @@ function deepestChild(){
 }
 function increaseRankBy(n){
   var rankedList = document.querySelectorAll('.ranked-list');
-  console.debug(rankedList.length);
+  for (var i = 0; i < rankedList.length; i++) {
+    console.log(i);
+  }
 
 }
